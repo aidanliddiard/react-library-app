@@ -14,10 +14,10 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/books">
+        <Route exact path="/books">
           <BookList />
         </Route>
-        <Route path="/books/:id">
+        <Route exact path="/books/:id">
           <BookDetail />
         </Route>
       </Switch>
