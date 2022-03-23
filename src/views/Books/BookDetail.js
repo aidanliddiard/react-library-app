@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 
 function BookDetail() {
   const params = useParams(); // TODO: Use id from route
-  console.log(params);
 
   const [book, setBook] = useState(null);
 
